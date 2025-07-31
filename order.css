@@ -1,0 +1,36 @@
+.navigation{
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 100;
+    border-bottom: solid black 2px;
+}
+
+.logo{
+    width: 10em;
+}
+
+
+.nav-item{
+    border: solid 1.5px black;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-link{
+    color: #b80f1c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-item:hover, .nav-item.active{
+    background-color: #b80f1c;
+    .nav-link{
+        color: white;
+    }
+}
