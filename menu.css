@@ -11,7 +11,6 @@
     width: 10em;
 }
 
-
 .nav-item{
     border: solid 1.5px black;
     margin-left: 8px;
@@ -35,11 +34,19 @@
     }
 }
 
+.heading{
+    margin-top: 3em;
+    text-align: center;
+    font-family: "Knewave", system-ui;
+    font-size: 5em;
+    color: #b80f1c;
+}
+
 .image{
     width: 100%;
+    margin-bottom: 1em;
 }
 
 .menus{
-    margin-top: 5em;
-    
+    margin: 5em;
 }
