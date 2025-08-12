@@ -1,3 +1,8 @@
+body{
+    background-image: url(images/planks.jpg);
+    background-size: contain;
+}
+
 .navigation{
     position: fixed; 
     width: 100%;
@@ -38,13 +43,16 @@
     margin-top: 3em;
     text-align: center;
     font-family: "Knewave", system-ui;
+    -webkit-text-stroke: 2px whitesmoke;
     font-size: 5em;
     color: #b80f1c;
 }
 
 .image{
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    outline: 0.25em solid whitesmoke;
+    border-radius: 1em;
 }
 
 .menus{

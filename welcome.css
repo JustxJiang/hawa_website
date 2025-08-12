@@ -111,13 +111,14 @@ body{
     padding: 20px;
     padding-right: 50px;
     border: solid 2px black;
-
+    color: black;
+    
 }
 
 .image1_half{
     width:30%;
-    border-radius: 200px;
-
+    border-radius: 0.5em;
+    outline: solid 2px black;
 }
 
 .text1_half{
@@ -127,7 +128,9 @@ body{
 }
 
 .subtitle{
-    font-size: 125px;
+    font-size: 10em;
+    -webkit-text-stroke: 2px black;
+    color:#b80f1c;
 }
 .menu_ordering{
     text-align: center;
