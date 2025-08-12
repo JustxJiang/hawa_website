@@ -4,7 +4,9 @@ body{
     background-size: contain;
 }
 
-
+p{
+    font-size: 1.2em;
+}
 
 .navigation{
     position: fixed; 
@@ -103,6 +105,13 @@ body{
     color: whitesmoke
 }
 
+.tiny_btn{
+    border: solid 0.1em black;
+    
+    border-radius: 30px;
+    color:#b80f1c;
+}
+
 .about_section{
     font-family: "Knewave", system-ui;  
     width:100%;
@@ -122,7 +131,8 @@ body{
 }
 
 .text1_half{
-    width: 70%;
+    width: 60%;
+    margin-right: 10%;
     align-content: center;
     text-align: center;
 }
