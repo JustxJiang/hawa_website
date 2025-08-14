@@ -107,9 +107,19 @@ p{
 
 .tiny_btn{
     border: solid 0.1em black;
-    
     border-radius: 30px;
+}
+
+.tiny_btn:hover{
+    background-color: #b80f1c;
+    a{
+        color:white;
+    }
+}
+
+.tiny_btn a{
     color:#b80f1c;
+    text-decoration: none;
 }
 
 .about_section{

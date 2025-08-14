@@ -34,3 +34,20 @@
         color: white;
     }
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin-top: 10em;
+}
+
+.bar{
+    flex: 1;
+    background-color: #b80f1c;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+
+    
+}
