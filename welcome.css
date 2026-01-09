@@ -89,6 +89,8 @@ p{
     background-color: black;
     position: relative;
     padding-top: 5rem;
+    z-index: 5;
+    text-align: center;
 }
 
 .btn{
@@ -133,7 +135,7 @@ p{
 
 .tiny_btn a{
     color:#b80f1c;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 .about_section{
